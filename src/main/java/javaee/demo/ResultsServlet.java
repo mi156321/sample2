@@ -6,7 +6,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "ResultsServlet", value = "hiddenservlet/ResultsServlet.do")
+@WebServlet(name = "ResultsServlet", value = "/hiddenservlet/ResultsServlet.do")
 public class ResultsServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
